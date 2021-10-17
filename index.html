@@ -8,20 +8,20 @@
   </head>
   <body>
 <h1>Formulaire à remplir</h1>
-<form id='InfosPerso' action="index.html" method="post">
+<form id="InfosPerso" class="UserForm" action="#" method="get">
   <label for="prenom">Prénom :</label>
-  <input type="text" name="prenom"><br><br>
-  <label for="NomDeFamille">Nom de Famille :</label>
-  <input type="text" name="NomDeFamille"><br><br>
+  <input type="text" id="prenom" name="prenom"><br><br>
+  <label for="Nomdefamille">Nom de Famille :</label>
+  <input type="text" id="Nomdefamille" name="NomDeFamille"><br><br>
   <label for="email">Adresse mail :</label>
-  <input type="text" name="email"><br><br>
+  <input type="text" id="email" name="email"><br><br>
   <label for="gender">Sexe</label>
-      <select class="Sexe" id="gender">
+      <select class="sexe" id="gender">
         <option value="homme">Homme</option>
         <option value="femme">Femme</option>
         <option value="autre">autre</option>
       </select><br><br>
-  <button type="submit" name="Submit">Valider</button>
+  <button type="submit" class="Form_Button" id="btn_submit" name="Submit">Valider</button>
 </form>
   </body>
 </html>
