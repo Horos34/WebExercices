@@ -1,1 +1,1 @@
-console.log("nique ta mère Lucas, respectueusement.");
+console.log("Exercices Web avec Weact");

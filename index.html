@@ -4,9 +4,24 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="CSS/style.css">
     <script src="JavaScript/script.js" charset="utf-8"></script>
-    <title>PUTAIN IL M'A CASSÉ LES COUILLES</title>
+    <title>Formulaire Teste</title>
   </head>
   <body>
-
+<h1>Formulaire à remplir</h1>
+<form id="InfosPerso" class="UserForm" action="#" method="get">
+  <label for="prenom">Prénom :</label>
+  <input type="text" id="prenom" name="prenom"><br><br>
+  <label for="Nomdefamille">Nom de Famille :</label>
+  <input type="text" id="Nomdefamille" name="NomDeFamille"><br><br>
+  <label for="email">Adresse mail :</label>
+  <input type="text" id="email" name="email"><br><br>
+  <label for="gender">Sexe</label>
+      <select class="sexe" id="gender">
+        <option value="homme">Homme</option>
+        <option value="femme">Femme</option>
+        <option value="autre">autre</option>
+      </select><br><br>
+  <button type="submit" class="Form_Button" id="btn_submit" name="Submit">Valider</button>
+</form>
   </body>
 </html>
