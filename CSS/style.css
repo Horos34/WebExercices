@@ -12,6 +12,11 @@ body{
 .Form_Button{
   padding: 2px;
   border: none;
-  background-color: lightblue;
-  color: white;
+  background-color: black;
+  color: red;
+  width: 100%
+}
+
+#chadoscore{
+  text-align: center;
 }
