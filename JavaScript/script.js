@@ -1,12 +1,21 @@
 console.log("Exercices Web avec Weact");
 
-multiplicateur(5, 3)
 
 function multiplicateur(value1, value2) {
-    console.log(value1 * value2);
+    console.log(value1, value2);
     return value1 * value2
 }
 
+function RESULT() {
+    var meh = multiplicateur(5, 3)
+    alert(meh)
+}
+
+function WeactButton() {
+  var smurk = "CAN I GET A HOOOOO YEAAAAAAAAAAH ?"
+  console.log(smurk);
+  alert(smurk)
+}
 
 function alertButton() {
     var clic = "L'action a bien été prise en compte"
