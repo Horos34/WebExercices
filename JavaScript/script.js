@@ -20,3 +20,13 @@ function saisieDonnée() {
   var saisie_nom = document.getElementById("Nomdefamille").value;
   alert("Tu t'appelles " + saisie_prenom + " " + saisie_nom);
 }
+
+function stringAnalyze(x, y) {
+  var parsed = parseInt(x, y);
+    if (isNaN(parsed)) {
+      return 0;
+    }
+
+    alert("l'élément est : " + parsed)
+
+}
