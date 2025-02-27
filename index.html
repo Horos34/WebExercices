@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="CSS/style.css">
@@ -12,6 +12,37 @@
   </head>
   <body>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand text-white" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active text-white" href="#">Home</a>
+          <a class="nav-item nav-link text-white" href="#"></a>
+          <a class="nav-item nav-link text-white" href="#"></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center">
+      <form class="w-50">
+        <div class="form-group mt-5">
+          <label for="exampleInputEmail1">Username</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group mt-2">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check mt-2">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">This is a checkbox</label>
+        </div>
+        <button type="submit" class="btn mt-2 btn-primary">Submit</button>
+      </form>
+    </div>
 
   </body>
 </html>
